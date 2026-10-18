@@ -363,6 +363,13 @@ footer {
     flex: none;
 }
 
+/* Profile photo */
+.hero-image {
+    width: 190px;
+    max-width: 100%;
+    flex: 0 0 190px;
+}
+
 .hero-image img {
     display: block;
     width: 100%;

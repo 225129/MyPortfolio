@@ -583,4 +583,46 @@ footer {
         padding: 22px;
     }
 }
-```
+
+/* Professional Contact Section */
+#contact {
+    margin-top: 40px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.contact-details p {
+    margin: 0;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+    transition: border-color 0.25s ease,
+                transform 0.25s ease;
+}
+
+.contact-details p:hover {
+    border-color: var(--accent);
+    transform: translateX(4px);
+}
+
+.contact-details strong {
+    color: var(--accent);
+    margin-right: 8px;
+}
+
+.contact-details a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}

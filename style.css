@@ -202,12 +202,29 @@ footer a:hover {
     margin-top: 35px;
 }
 
+
 .card {
-    background: var(--surface);
+    background: linear-gradient(
+        145deg,
+        var(--surface),
+        rgba(255, 255, 255, 0.015)
+    );
     border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 28px;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
 }
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.20);
+}
+
 
 .card h3 {
     font-size: 21px;

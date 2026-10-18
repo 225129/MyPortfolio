@@ -358,35 +358,26 @@ footer {
 
 
 .hero-image {
-    width: 190px;
+    width: 140px;
     max-width: 100%;
-    flex: none;
-}
-
-/* Profile photo */
-.hero-image {
-    width: 190px;
-    max-width: 100%;
-    flex: 0 0 190px;
+    flex: 0 0 140px;
 }
 
 .hero-image img {
     display: block;
     width: 100%;
-    height: 240px;
+    height: 180px;
     object-fit: cover;
     object-position: center;
-    border-radius: 16px;
+    border-radius: 14px;
     border: 1px solid rgba(86, 214, 201, 0.45);
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
 }
 
 .hero-image img:hover {
     transform: translateY(-3px);
-    box-shadow: 0 14px 34px rgba(86, 214, 201, 0.18);
 }
-
 
 .card {
     transition: transform 0.25s ease,
